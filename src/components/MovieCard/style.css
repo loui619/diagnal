@@ -20,6 +20,13 @@
     border-radius: 0px !important;
     background-color: #171717 !important;
 }
+.movie-name{
+    width: 100px;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 @media only screen 
      and (min-device-width: 320px) 
      and (max-device-width: 479px) {
