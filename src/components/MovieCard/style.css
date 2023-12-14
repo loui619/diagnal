@@ -1,0 +1,31 @@
+.movie-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    row-gap: 15px;
+    background-color: #171717 !important;
+}
+.movie-card-container div{
+    text-align: left;
+    font-size: 16px;
+    color: #ffffff;
+}
+.card-thumbnail{
+    height: 100%;
+}
+.movie-card-container div{
+    border-radius: 0px !important;
+    background-color: #171717 !important;
+}
+@media only screen 
+     and (min-device-width: 320px) 
+     and (max-device-width: 479px) {
+        .movie-card-container{
+            display: grid;
+            grid-template-columns: 30.33% 30.33% 30.33%;
+        }  
+
+}
