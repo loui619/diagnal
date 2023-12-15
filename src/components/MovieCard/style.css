@@ -28,7 +28,7 @@
     white-space: nowrap;
 }
 .infinite-scroll-component__outerdiv{
-    margin-top: 55px;
+    margin-top: 80px;
 }
 
 @media only screen 
@@ -38,6 +38,7 @@
             display: grid;
             grid-template-columns: 30.33% 30.33% 30.33%;
         }
-        
-
+        .infinite-scroll-component__outerdiv{
+            margin-top: 50px;
+        }
 }
