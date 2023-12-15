@@ -27,12 +27,17 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.infinite-scroll-component__outerdiv{
+    margin-top: 55px;
+}
+
 @media only screen 
      and (min-device-width: 320px) 
      and (max-device-width: 479px) {
         .movie-card-container{
             display: grid;
             grid-template-columns: 30.33% 30.33% 30.33%;
-        }  
+        }
+        
 
 }
