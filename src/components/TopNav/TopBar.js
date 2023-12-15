@@ -23,8 +23,8 @@ export default function TopBar(props) {
     props.searchContent('');
   }
   return (
-    <div className="navbar-container">
-      <div className='logo-container'>
+    <div className={enableSearch ? 'search-enabled navbar-container':'navbar-container'} >
+      <div className={enableSearch ? 'show-logo logo-container':'logo-container'} >
           <img src={logo} alt="diaganal-logo"/>
       </div>
       <div className='back-btn-container'>

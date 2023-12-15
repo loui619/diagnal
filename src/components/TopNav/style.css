@@ -79,10 +79,14 @@ outline: none !important;
      and (min-device-width: 320px) 
      and (max-device-width: 479px) {
         .logo-container{
-            display: none;
+            width: 100%;
+        display: block;
+        }
+        .search-enabled{
+            grid-template-columns: 20% 80% !important;
         }
         .navbar-container{
-            grid-template-columns: 20% 80%;
+            grid-template-columns: 20% 10% 70%;
             height: 50px;
         }
         .search-icon img{
@@ -95,5 +99,8 @@ outline: none !important;
         .search-container{
             width: auto;
             height: auto;
+        }
+        .show-logo{
+            display: none;
         }
      }
