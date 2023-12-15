@@ -81,7 +81,8 @@ outline: none !important;
      and (max-device-width: 479px) {
         .logo-container{
             width: 100%;
-        display: block;
+            display: block;
+            margin-left: 8px;
         }
         .search-enabled{
             grid-template-columns: 20% 80% !important;
