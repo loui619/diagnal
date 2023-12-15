@@ -38,7 +38,7 @@ const Home = () => {
         dataLength={movieList.length}
         next={fetchData}
         hasMore={true}
-        loader={<h4>Loading...</h4>}
+        loader={<h4>{filteredMovieList.length > 0 ? 'Loading...' : "Sorry No Item Found"}</h4>}
       >
         <div className="movie-card-container">
           {movieList &&
