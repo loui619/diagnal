@@ -28,7 +28,9 @@ export default function TopBar(props) {
           <img src={logo} alt="diaganal-logo"/>
       </div>
       <div className='back-btn-container'>
-      {enableSearch &&<img src={backButton} alt="back-btn" onClick={backToHome}/>}
+      { <><img src={backButton} alt="back-btn" onClick={backToHome}/>
+        <h4>Romantic Comedy</h4></>
+      }
       </div>
       <div  className={ enableSearch ? 'search-container is_active' :'search-container'}>
       <div className='input-search'>

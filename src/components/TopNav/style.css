@@ -26,7 +26,7 @@
 .navbar-container{
     width: 100%;
     position: fixed !important;
-    grid-template-columns: 20% 10% 80%;
+    grid-template-columns: 20% 15% 75%;
     display: grid;
     align-items: center;
     z-index: 1;
@@ -36,7 +36,7 @@
     width: 15%;
 }
 .back-btn-container img {
-    width: 25%;
+    width: 10%;
 }
 .search-container{
     display: grid;
@@ -67,6 +67,7 @@ outline: none !important;
     display: flex;
     justify-content: right;
     margin-right: 10px;
+    cursor: pointer;
 }
 .back-btn-container{
     height: 100%;
@@ -74,29 +75,34 @@ outline: none !important;
     display: flex;
     justify-content: right;
     margin-right: 10px;
+    cursor: pointer;
     
+}
+.back-btn-container h4{
+    margin-left: 10px;
 }
 @media only screen 
      and (min-device-width: 320px) 
      and (max-device-width: 479px) {
         .logo-container{
             width: 100%;
-            display: block;
+            display: none;
             margin-left: 8px;
         }
         .search-enabled{
-            grid-template-columns: 20% 80% !important;
+            grid-template-columns: 45% 55% !important;
         }
         .navbar-container{
-            grid-template-columns: 20% 10% 70%;
+            grid-template-columns: 45% 55%;
             height: 50px;
         }
         .search-icon img{
-            width: 35%;
+            width: 50%;
         }
         .back-btn-container{
             justify-content: left;
             margin-left: 10px;
+            height: 50px;
         }
         .search-container{
             width: auto;
